@@ -1,0 +1,23 @@
+{
+  "components": {
+    "plugins": {
+      "NSGraphChecker": {
+        "src": "src/plugins/NSGraphChecker",
+        "test": "test/plugins/NSGraphChecker"
+      },
+      "NSDeveloperPlugin": {
+        "src": "src/plugins/NSDeveloperPlugin",
+        "test": "test/plugins/NSDeveloperPlugin"
+      },
+      "NSCodeGenerator": {
+        "src": "src/plugins/NSCodeGenerator",
+        "test": "test/plugins/NSCodeGenerator"
+      }
+    },
+    "decorators": {}
+  },
+  "dependencies": {
+    "plugins": {},
+    "decorators": {}
+  }
+}
